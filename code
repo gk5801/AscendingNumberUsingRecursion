@@ -1,0 +1,28 @@
+package recursivefun;
+
+public class ascendingnumbers 
+{
+	static void fun(int n)
+    {
+    	
+    		if(n<0)
+    		return;
+    		else
+    		{
+    		n=0;
+    			while(n!=6)
+    	       {
+    			
+      	          System.out.print(n + " ");
+                  
+    		   }
+    			fun(n+1);
+    		}
+    	
+    }
+	public static void main(String[] args)
+	{
+		fun(5);
+	}
+
+}
